@@ -46,10 +46,25 @@ const NewsPortalDevelopment = () => {
         console.log('Quick form submitted:', quickFormData);
     };
 
-    const handleContactSubmit = (e) => {
-        e.preventDefault();
-        console.log('Contact form submitted:', contactFormData);
-    };
+    const handleContactSubmit = async (e) => {
+    e.preventDefault();
+    
+    try {
+      const result = await api.submitTestimonial(contactFormData);
+      alert(result.message || 'Thank you for your review! It will be reviewed and published soon.');
+      setContactFormData({
+        username: '',
+        company: '',
+        contact: '',
+        email: '',
+        service: 'Select Service',
+        message: ''
+      });
+    } catch (error) {
+      alert('Failed to submit your review. Please try again later.');
+      console.error('Error:', error);
+    }
+  };
 
     const testimonials = [
         {

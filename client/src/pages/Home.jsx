@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useEffect, useState } from 'react';
+import { api } from '../utils/api';
 
 // Import SEO Partner Images
 import finalResultImg from '../assets/images/cases/final_result.png';
@@ -49,9 +50,9 @@ const Home = () => {
     const [activeTab, setActiveTab] = useState('tabs-1');
     const [activeFaq, setActiveFaq] = useState('faq1'); // First FAQ open by default
     const [formData, setFormData] = useState({
-        username: '',
+        name: '',
         company: '',
-        contact: '',
+        phone: '',
         email: '',
         service: '',
         message: ''
@@ -68,20 +69,24 @@ const Home = () => {
         });
     };
 
-    const handleFormSubmit = (e) => {
+    const handleFormSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        // Here you can add API call to send form data
-        alert('Thank you for your inquiry! We will contact you soon.');
-        // Reset form
-        setFormData({
-            username: '',
-            company: '',
-            contact: '',
-            email: '',
-            service: '',
-            message: ''
-        });
+
+        try {
+            const result = await api.submitContact(formData);
+            alert(result.message || 'Thank you for your inquiry! We will contact you soon.');
+            setFormData({
+                name: '',
+                company: '',
+                phone: '',
+                email: '',
+                service: 'Select Service',
+                message: ''
+            });
+        } catch (error) {
+            alert('Failed to submit your inquiry. Please try again later.');
+            console.error('Error:', error);
+        }
     };
 
     useEffect(() => {
@@ -1601,7 +1606,7 @@ const Home = () => {
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="form-group">
-                                                <input type="text" name="username" className="form-control" placeholder="Name" required value={formData.username} onChange={handleFormChange} style={{ backgroundColor: '#fff', color: '#333' }} />
+                                                <input type="text" name="name" className="form-control" placeholder="Name" required value={formData.name} onChange={handleFormChange} style={{ backgroundColor: '#fff', color: '#333' }} />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
@@ -1611,7 +1616,7 @@ const Home = () => {
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-group">
-                                                <input type="text" className="form-control" name="contact" pattern="[1-9]{1}[0-9]{9}" placeholder="Mobile No." required value={formData.contact} onChange={handleFormChange} style={{ backgroundColor: '#fff', color: '#333' }} />
+                                                <input type="tel" className="form-control" name="phone" pattern="[1-9]{1}[0-9]{9}" placeholder="Mobile No." required value={formData.phone} onChange={handleFormChange} style={{ backgroundColor: '#fff', color: '#333' }} />
                                             </div>
                                         </div>
                                         <div className="col-md-6">

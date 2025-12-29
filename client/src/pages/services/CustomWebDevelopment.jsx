@@ -1,6 +1,7 @@
 ﻿import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { api } from '../../utils/api';
 
 // Import banner image
 import banner5 from '../../assets/images/banner/banner5.jpg';
@@ -46,9 +47,24 @@ const CustomWebDevelopment = () => {
     console.log('Quick form submitted:', quickFormData);
   };
 
-  const handleContactSubmit = (e) => {
+  const handleContactSubmit = async (e) => {
     e.preventDefault();
-    console.log('Contact form submitted:', contactFormData);
+
+    try {
+      const result = await api.submitTestimonial(contactFormData);
+      alert(result.message || 'Thank you for your review! It will be reviewed and published soon.');
+      setContactFormData({
+        username: '',
+        company: '',
+        contact: '',
+        email: '',
+        service: 'Select Service',
+        message: ''
+      });
+    } catch (error) {
+      alert('Failed to submit your review. Please try again later.');
+      console.error('Error:', error);
+    }
   };
 
   const testimonials = [

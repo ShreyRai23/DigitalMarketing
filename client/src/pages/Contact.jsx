@@ -1,18 +1,19 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { api } from '../utils/api';
 
 // Import banner image
 import banner5 from '../assets/images/banner/banner5.jpg';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
-        username: '',
+        name: '',
         company: '',
-        contact: '',
+        phone: '',
         email: '',
         service: 'Select Service',
-        message: ' Descriptions'
+        message: ''
     });
 
     const handleChange = (e) => {
@@ -23,10 +24,24 @@ const Contact = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        // Add form submission logic here
+
+        try {
+            const result = await api.submitContact(formData);
+            alert(result.message || 'Thank you for contacting us! We will get back to you soon.');
+            setFormData({
+                name: '',
+                company: '',
+                phone: '',
+                email: '',
+                service: 'Select Service',
+                message: ''
+            });
+        } catch (error) {
+            alert('Failed to submit your message. Please try again later.');
+            console.error('Error:', error);
+        }
     };
 
     const stats = [
@@ -86,10 +101,10 @@ const Contact = () => {
                                                 <div className="form-group">
                                                     <input
                                                         type="text"
-                                                        name="username"
+                                                        name="name"
                                                         className="form-control"
-                                                        placeholder="Name"
-                                                        value={formData.username}
+                                                        placeholder="Your Name"
+                                                        value={formData.name}
                                                         onChange={handleChange}
                                                         required
                                                         style={{ backgroundColor: '#fff', border: '2px solid #fec658' }}
@@ -113,12 +128,12 @@ const Contact = () => {
                                             <div className="col-md-6">
                                                 <div className="form-group">
                                                     <input
-                                                        type="text"
+                                                        type="tel"
                                                         className="form-control"
-                                                        name="contact"
+                                                        name="phone"
                                                         pattern="[1-9]{1}[0-9]{9}"
                                                         placeholder="Mobile No."
-                                                        value={formData.contact}
+                                                        value={formData.phone}
                                                         onChange={handleChange}
                                                         required
                                                         style={{ backgroundColor: '#fff', border: '2px solid #fec658' }}

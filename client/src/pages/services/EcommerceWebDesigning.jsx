@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 // Import banner image
 import banner5 from '../../assets/images/banner/banner5.jpg';
 import testimonialIcon from '../../assets/images/icon-image/testimonial1.png';
+import { api } from '../../utils/api';
 
 // Use image URL from the actual website
 const ecommerceWebImage = 'https://www.digitalmarketingking.in/img/dm/ecommerce-website-designing-in-delhi.webp';
@@ -46,9 +47,24 @@ const EcommerceWebDesigning = () => {
     console.log('Quick form submitted:', quickFormData);
   };
 
-  const handleContactSubmit = (e) => {
+  const handleContactSubmit = async (e) => {
     e.preventDefault();
-    console.log('Contact form submitted:', contactFormData);
+    
+    try {
+      const result = await api.submitTestimonial(contactFormData);
+      alert(result.message || 'Thank you for your review! It will be reviewed and published soon.');
+      setContactFormData({
+        username: '',
+        company: '',
+        contact: '',
+        email: '',
+        service: 'Select Service',
+        message: ''
+      });
+    } catch (error) {
+      alert('Failed to submit your review. Please try again later.');
+      console.error('Error:', error);
+    }
   };
 
   const testimonials = [

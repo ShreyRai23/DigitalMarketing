@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { api } from '../../utils/api';
 
 const HybridAppDevelopment = () => {
     const [formData, setFormData] = useState({
@@ -50,18 +51,24 @@ const HybridAppDevelopment = () => {
         setContactFormData({ ...contactFormData, [e.target.name]: e.target.value });
     };
 
-    const handleContactFormSubmit = (e) => {
+    const handleContactFormSubmit = async (e) => {
         e.preventDefault();
-        console.log('Contact Form Data:', contactFormData);
-        alert('Thank you! We will contact you soon.');
-        setContactFormData({
-            username: '',
-            company: '',
-            contact: '',
-            email: '',
-            service: '',
-            message: ''
-        });
+
+        try {
+            const result = await api.submitTestimonial(contactFormData);
+            alert(result.message || 'Thank you for your review! It will be reviewed and published soon.');
+            setContactFormData({
+                username: '',
+                company: '',
+                contact: '',
+                email: '',
+                service: 'Select Service',
+                message: ''
+            });
+        } catch (error) {
+            alert('Failed to submit your review. Please try again later.');
+            console.error('Error:', error);
+        }
     };
 
     return (
