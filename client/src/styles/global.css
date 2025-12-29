@@ -1,0 +1,51 @@
+/* Global styles - will be populated with migrated CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Apply Poppins to all headings with appropriate weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Stronger weight for h1 and h2 */
+h1,
+h2 {
+  font-weight: 700;
+}
+
+/* All text elements use Poppins */
+p,
+a,
+span,
+div,
+li,
+td,
+th,
+label,
+input,
+textarea,
+select,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Bootstrap and other CSS will be imported from original files */
+/* This file serves as the global CSS entry point */

@@ -1,0 +1,168 @@
+/* Review/Testimonial Section Styles */
+.tw-testimonial {
+    background-color: #fec658;
+    /* Main Yellow Background */
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Pattern (Optional - subtle repeating icons usually) */
+.tw-testimonial::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+/* Section Title */
+.tw-testimonial .section-title {
+    color: #fff;
+    font-size: 48px;
+    /* Larger title */
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.tw-testimonial .animate-border.border-green {
+    background-color: #fff;
+    /* White underline */
+}
+
+/* Left Side - Testimonial Carousel/Card */
+.tw-testimonial-wrapper {
+    background-color: #2f2c2c;
+    /* Dark Background */
+    padding: 40px;
+    border-radius: 5px;
+    position: relative;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.testimonial-text p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.testimonial-meta h4 {
+    color: #fec658;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.testimonial-meta h4 small {
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.testimonial-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #fec658;
+}
+
+.icon-quote2 {
+    font-size: 60px;
+    color: #444;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+/* Right Side - Form */
+.login-form {
+    background-color: #fff8e1;
+    /* Light Beige Background */
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .section-title {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.login-form .animate-border {
+    background-color: #fec658;
+    width: 100px;
+}
+
+.login-form .form-control {
+    background-color: #ffffff;
+    /* White input background */
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+    height: auto;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 14px;
+}
+
+.login-form .form-control::placeholder {
+    color: #7a7a7a;
+}
+
+/* Form Buttons */
+.form-btn-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    background-color: #fec658;
+    color: #000;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #e6b048;
+    color: #000;
+}
+
+.btn-review {
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 2px solid #fec658;
+    /* Outline style */
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #fec658;
+    /* Actually solid in screenshot too, maybe lighter? */
+    /* Screenshot shows 2 yellow buttons. One says "SUBMIT NOW", other "WRITE A REVIEW.." */
+    /* They look identical in color. Let's make them both yellow. */
+}
+
+.btn-review:hover {
+    background-color: #e6b048;
+    color: #000;
+}

@@ -1,0 +1,164 @@
+/* SEO Partner Section - Choose Your SEO Partner Wisely */
+.tw-final-result {
+    padding: 80px 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    min-height: 450px;
+}
+
+.tw-final-result .section-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #2f2c2c;
+    line-height: 1.3;
+    font-style: italic;
+}
+
+.tw-final-result .section-heading h2 span {
+    color: #fec658;
+}
+
+.tw-final-result .tw-results-content p {
+    font-size: 15px;
+    color: #757575;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Traffic Info Icons */
+.results-traffic {
+    margin-top: 30px;
+}
+
+.traffic-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 2px dashed #fec658;
+}
+
+.traffic-info img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.traffic-info span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #2f2c2c;
+}
+
+/* Result Background Image (Laptop) */
+.result-bg {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.result-bg img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Traffic Counter Cards */
+.tw-traffic-counter {
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.traffic-icon-bg {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.traffic-icon-bg::before {
+    content: '+';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #29b6f6;
+    font-weight: bold;
+}
+
+.traffic-icon-bg::after {
+    content: 'o';
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    font-size: 10px;
+    color: #29b6f6;
+}
+
+.traffic-icon-bg img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.tw-traffic-counter h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2f2c2c;
+    margin-bottom: 10px;
+    min-height: 45px;
+}
+
+.tw-traffic-counter p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fec658;
+    margin: 0;
+}
+
+.tw-traffic-counter .counter {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fec658;
+}
+
+/* Margin utilities */
+.tw-mt-20 {
+    margin-top: 20px;
+}
+
+.tw-mt-40 {
+    margin-top: 40px;
+}
+
+.tw-mb-35 {
+    margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+    .tw-final-result .section-heading h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .traffic-info {
+        justify-content: center;
+    }
+
+    .result-bg {
+        margin-top: 30px;
+    }
+}

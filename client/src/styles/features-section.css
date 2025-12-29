@@ -1,0 +1,58 @@
+/* Features Section - Boost Your Business */
+.tw-features-area {
+    position: relative;
+    padding: 80px 0 60px;
+    background: #f8f9fa;
+    overflow: hidden;
+}
+
+/* Gray curved wave background */
+.tw-features-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e8e8e8 0%, #f5f5f5 50%, #e8e8e8 100%);
+    clip-path: ellipse(120% 100% at 50% 100%);
+    z-index: 0;
+}
+
+.tw-features-area .container {
+    position: relative;
+    z-index: 1;
+}
+
+.tw-features-area .column-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2f2c2c;
+    line-height: 1.4;
+}
+
+.tw-features-area .features-text {
+    font-size: 15px;
+    color: #757575;
+    line-height: 1.9;
+}
+
+.tw-mb-65 {
+    margin-bottom: 65px;
+}
+
+.text-md-right {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .tw-features-area .column-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .text-md-right {
+        text-align: center;
+    }
+}
