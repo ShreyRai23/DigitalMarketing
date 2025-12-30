@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from '../../assets/images/other/logo.webp';
 
 const Navbar = () => {
@@ -10,9 +10,31 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    const toggleMegaMenu = () => {
+    const toggleMegaMenu = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
         setShowMegaMenu(!showMegaMenu);
     };
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            const megaMenu = document.getElementById('tw-megamenu');
+            const servicesLink = event.target.closest('.tw-megamenu-wrapper');
+
+            if (showMegaMenu && !servicesLink && !megaMenu?.contains(event.target)) {
+                setShowMegaMenu(false);
+            }
+        };
+
+        if (showMegaMenu) {
+            document.addEventListener('click', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, [showMegaMenu]);
 
     const openOffCanvas = () => {
         document.querySelector('.offcanvas-menu').classList.add('active');
@@ -56,8 +78,6 @@ const Navbar = () => {
                                 </li>
                                 <li
                                     className="nav-item dropdown tw-megamenu-wrapper"
-                                    onMouseEnter={() => setShowMegaMenu(true)}
-                                    onMouseLeave={() => setShowMegaMenu(false)}
                                 >
                                     <a
                                         className="nav-link"
@@ -87,37 +107,37 @@ const Navbar = () => {
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/dynamic-website-designing">
+                                                        <Link to="/services/dynamic-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Dynamic Website Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/ecommerce-website-designing">
+                                                        <Link to="/services/ecommerce-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Ecommerce Website Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/custom-website-designing">
+                                                        <Link to="/services/custom-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Custom Website Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/wordpress-website-designing">
+                                                        <Link to="/services/wordpress-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Wordpress Website Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/landing-page-designing">
+                                                        <Link to="/services/landing-page-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Landing Page Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/mlm-website-designing">
+                                                        <Link to="/services/mlm-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             MLM Website Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/news-website-designing">
+                                                        <Link to="/services/news-website-designing" onClick={() => setShowMegaMenu(false)}>
                                                             News Website Designing
                                                         </Link>
                                                     </li>
@@ -130,57 +150,57 @@ const Navbar = () => {
                                                         <span className="animate-border mr-auto"></span>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/php-website-development">
+                                                        <Link to="/services/php-website-development" onClick={() => setShowMegaMenu(false)}>
                                                             PHP Website Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/ecommerce-website-development">
+                                                        <Link to="/services/ecommerce-website-development" onClick={() => setShowMegaMenu(false)}>
                                                             Ecommerce Website Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/wordpress-website-development">
+                                                        <Link to="/services/wordpress-website-development" onClick={() => setShowMegaMenu(false)}>
                                                             Wordpress Website Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/custom-website-development">
+                                                        <Link to="/services/custom-website-development" onClick={() => setShowMegaMenu(false)}>
                                                             Custom Website Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/mlm-software-development">
+                                                        <Link to="/services/mlm-software-development" onClick={() => setShowMegaMenu(false)}>
                                                             MLM Software Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/payment-gateway-integration">
+                                                        <Link to="/services/payment-gateway-integration" onClick={() => setShowMegaMenu(false)}>
                                                             Payment Gateway Integration
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/multi-vendor-ecommerce-website">
+                                                        <Link to="/services/multi-vendor-ecommerce-website" onClick={() => setShowMegaMenu(false)}>
                                                             Multi Vendor Ecommerce Website
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/cms-web-development">
+                                                        <Link to="/services/cms-web-development" onClick={() => setShowMegaMenu(false)}>
                                                             CMS Web Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/web-portal-development">
+                                                        <Link to="/services/web-portal-development" onClick={() => setShowMegaMenu(false)}>
                                                             Web Portal Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/crm-software-development">
+                                                        <Link to="/services/crm-software-development" onClick={() => setShowMegaMenu(false)}>
                                                             CRM Software Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/news-portal-development">
+                                                        <Link to="/services/news-portal-development" onClick={() => setShowMegaMenu(false)}>
                                                             News Portal Development
                                                         </Link>
                                                     </li>
@@ -193,22 +213,22 @@ const Navbar = () => {
                                                         <span className="animate-border mr-auto"></span>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/android-app-development">
+                                                        <Link to="/services/android-app-development" onClick={() => setShowMegaMenu(false)}>
                                                             Android App Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/ios-app-development">
+                                                        <Link to="/services/ios-app-development" onClick={() => setShowMegaMenu(false)}>
                                                             iOS App Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/native-app-development">
+                                                        <Link to="/services/native-app-development" onClick={() => setShowMegaMenu(false)}>
                                                             Native App Development
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/hybrid-app-development">
+                                                        <Link to="/services/hybrid-app-development" onClick={() => setShowMegaMenu(false)}>
                                                             Hybrid App Development
                                                         </Link>
                                                     </li>
@@ -217,17 +237,17 @@ const Navbar = () => {
                                                         <span className="animate-border mr-auto"></span>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/business-explainer-video">
+                                                        <Link to="/services/business-explainer-video" onClick={() => setShowMegaMenu(false)}>
                                                             Business Explainer Video
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/logo-designing">
+                                                        <Link to="/services/logo-designing" onClick={() => setShowMegaMenu(false)}>
                                                             Logo Designing
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="/services/social-media-post-design">
+                                                        <Link to="/services/social-media-post-design" onClick={() => setShowMegaMenu(false)}>
                                                             Social Media Post Design
                                                         </Link>
                                                     </li>
