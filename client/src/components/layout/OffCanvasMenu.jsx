@@ -15,7 +15,7 @@ const OffCanvasMenu = () => {
                         <div className="offcanvas-wrapper">
                             <div className="offcanvas-inner">
                                 <Link to="/" className="logo">
-                                    <img src="/src/assets/img/logo.webp" alt="Digital Marketing King Logo" />
+                                    <img src="/assets/img/logo.webp" alt="Digital Marketing King Logo" />
                                 </Link>
                                 <div className="row">
                                     <div className="col-md-12">

@@ -153,9 +153,9 @@ const Home = () => {
                 {/* Slide 1 */}
                 <div className="slider-2">
                     <div className="slider-arrow">
-                        <img src="/src/assets/images/slider/pattern_arrow2.png" alt="sliderArrow1" />
-                        <img src="/src/assets/images/slider/pattern_arrow1.png" alt="sliderArrow2" />
-                        <img src="/src/assets/images/slider/pattern_arrow3.png" alt="sliderArrow3" />
+                        <img src="/assets/images/slider/pattern_arrow2.png" alt="sliderArrow1" />
+                        <img src="/assets/images/slider/pattern_arrow1.png" alt="sliderArrow2" />
+                        <img src="/assets/images/slider/pattern_arrow3.png" alt="sliderArrow3" />
                     </div>
                     <div className="slider-wrapper d-table">
                         <div className="slider-inner d-table-cell">
@@ -169,7 +169,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src="/src/assets/img/slider/slider1.webp" alt="Google 1st Page" className="img-fluid slider-img" />
+                                        <img src="/assets/img/slider/slider1.webp" alt="Google 1st Page" className="img-fluid slider-img" />
                                     </div>
                                 </div>
                             </div>
@@ -180,9 +180,9 @@ const Home = () => {
                 {/* Slide 2 */}
                 <div className="slider-3">
                     <div className="slider-arrow">
-                        <img src="/src/assets/images/slider/pattern_arrow2.png" alt="sliderArrow1" />
-                        <img src="/src/assets/images/slider/pattern_arrow1.png" alt="sliderArrow2" />
-                        <img src="/src/assets/images/slider/pattern_arrow3.png" alt="sliderArrow3" />
+                        <img src="/assets/images/slider/pattern_arrow2.png" alt="sliderArrow1" />
+                        <img src="/assets/images/slider/pattern_arrow1.png" alt="sliderArrow2" />
+                        <img src="/assets/images/slider/pattern_arrow3.png" alt="sliderArrow3" />
                     </div>
                     <div className="slider-wrapper d-table">
                         <div className="slider-inner d-table-cell">
@@ -196,7 +196,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
-                                        <img src="/src/assets/img/slider/banner2.png" alt="SEO 1st Ranking" className="img-fluid slider-img" />
+                                        <img src="/assets/img/slider/banner2.png" alt="SEO 1st Ranking" className="img-fluid slider-img" />
                                     </div>
                                 </div>
                             </div>
@@ -270,32 +270,32 @@ const Home = () => {
                             <div className="clients-carousel owl-carousel">
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/1.webp" alt="Google Ads Display Certificate" />
+                                        <img src="/assets/img/cert/1.webp" alt="Google Ads Display Certificate" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/2.webp" alt="Google Ads Fundamentals Certificate" />
+                                        <img src="/assets/img/cert/2.webp" alt="Google Ads Fundamentals Certificate" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/3.webp" alt="Google Ads Mobile Certificate" />
+                                        <img src="/assets/img/cert/3.webp" alt="Google Ads Mobile Certificate" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/4.webp" alt="Google Ads Mobile Certification" />
+                                        <img src="/assets/img/cert/4.webp" alt="Google Ads Mobile Certification" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/5.webp" alt="Google Ads Display Certification" />
+                                        <img src="/assets/img/cert/5.webp" alt="Google Ads Display Certification" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/cert/6.webp" alt="Google Digital Garage Certificate" />
+                                        <img src="/assets/img/cert/6.webp" alt="Google Digital Garage Certificate" />
                                     </div>
                                 </div>
                             </div>
@@ -307,8 +307,8 @@ const Home = () => {
             {/* Stats/Facts Section */}
             <section id="tw-facts" className="tw-facts">
                 <div className="facts-bg-pattern d-none d-lg-block">
-                    <img className="wow fadeInLeft" src="/src/assets/images/funfacts/arrow_left.png" alt="arrow_left" />
-                    <img className="wow fadeInRight" src="/src/assets/images/funfacts/arrow_right.png" alt="arrow_right" />
+                    <img className="wow fadeInLeft" src="/assets/images/funfacts/arrow_left.png" alt="arrow_left" />
+                    <img className="wow fadeInRight" src="/assets/images/funfacts/arrow_right.png" alt="arrow_right" />
                 </div>
                 <div className="container">
                     <div className="row">
@@ -380,7 +380,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
                                 <div className="service-icon service-icon-bg-1 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service1.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service1.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -400,7 +400,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
                                 <div className="service-icon service-icon-bg-2 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service2.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service2.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -420,7 +420,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
                                 <div className="service-icon service-icon-bg-4 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service4.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service4.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -443,7 +443,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
                                 <div className="service-icon service-icon-bg-3 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service3.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service3.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -462,7 +462,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
                                 <div className="service-icon service-icon-bg-5 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service5.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service5.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -481,7 +481,7 @@ const Home = () => {
                             <div className="tw-service-box wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
                                 <div className="service-icon service-icon-bg-6 d-table">
                                     <div className="service-icon-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/service6.png" alt="search engine" className="img-fluid" />
+                                        <img src="/assets/images/icon/service6.png" alt="search engine" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="service-content">
@@ -515,35 +515,35 @@ const Home = () => {
                         <div className="col-md-12">
                             <div className="tw-cases">
                                 <div className="cases-img bg-orange tw-service-box">
-                                    <img src="/src/assets/img/home/branding.png" alt="Branding" className="img-fluid" />
+                                    <img src="/assets/img/home/branding.png" alt="Branding" className="img-fluid" />
                                     <h3>Branding</h3>
                                 </div>
                                 <div className="cases-img bg-shrock tw-service-box">
-                                    <img src="/src/assets/img/home/digital-marketing.png" alt="Digital Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/digital-marketing.png" alt="Digital Marketing" className="img-fluid" />
                                     <h3>Digital Marketing</h3>
                                 </div>
                                 <div className="cases-img bg-yellow tw-service-box">
-                                    <img src="/src/assets/img/home/mobile-marketing.png" alt="Mobile Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/mobile-marketing.png" alt="Mobile Marketing" className="img-fluid" />
                                     <h3>Mobile Marketing</h3>
                                 </div>
                                 <div className="cases-img bg-blue tw-service-box">
-                                    <img src="/src/assets/img/home/online-marketing.png" alt="Online Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/online-marketing.png" alt="Online Marketing" className="img-fluid" />
                                     <h3>Online Marketing</h3>
                                 </div>
                                 <div className="cases-img bg-darkBlue tw-service-box">
-                                    <img src="/src/assets/img/home/search-engine-marketing.png" alt="Search Engine Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/search-engine-marketing.png" alt="Search Engine Marketing" className="img-fluid" />
                                     <h3>Search Engine Marketing</h3>
                                 </div>
                                 <div className="cases-img bg-pink tw-service-box">
-                                    <img src="/src/assets/img/home/paid-marketing.png" alt="Paid Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/paid-marketing.png" alt="Paid Marketing" className="img-fluid" />
                                     <h3>Paid Marketing</h3>
                                 </div>
                                 <div className="cases-img bg-violet tw-service-box">
-                                    <img src="/src/assets/img/home/seo.png" alt="seo" className="img-fluid" />
+                                    <img src="/assets/img/home/seo.png" alt="seo" className="img-fluid" />
                                     <h3>Search Engine Optimization</h3>
                                 </div>
                                 <div className="cases-img bg-orange tw-service-box">
-                                    <img src="/src/assets/img/home/smo.png" alt="Social Media Marketing" className="img-fluid" />
+                                    <img src="/assets/img/home/smo.png" alt="Social Media Marketing" className="img-fluid" />
                                     <h3>Social Media Marketing</h3>
                                 </div>
                             </div>
@@ -565,47 +565,47 @@ const Home = () => {
                             <div className="clients-carousel owl-carousel">
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/mid.png" alt="Mid Day logo" />
+                                        <img src="/assets/img/featured/mid.png" alt="Mid Day logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/yahoo.jpg" alt="Yahoo logo" />
+                                        <img src="/assets/img/featured/yahoo.jpg" alt="Yahoo logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/apn-news.jpg" alt="APN News logo" />
+                                        <img src="/assets/img/featured/apn-news.jpg" alt="APN News logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/latestly.jpg" alt="latestly logo" />
+                                        <img src="/assets/img/featured/latestly.jpg" alt="latestly logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/ht-logo2.svg" alt="Hindustan Times logo" />
+                                        <img src="/assets/img/featured/ht-logo2.svg" alt="Hindustan Times logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/press.png" alt="Press logo" />
+                                        <img src="/assets/img/featured/press.png" alt="Press logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/india.jpg" alt="India today logo" />
+                                        <img src="/assets/img/featured/india.jpg" alt="India today logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/telegraph.jpg" alt="telegraph logo" />
+                                        <img src="/assets/img/featured/telegraph.jpg" alt="telegraph logo" />
                                     </div>
                                 </div>
                                 <div className="client-logo-wrapper d-table">
                                     <div className="client-logo d-table-cell">
-                                        <img src="/src/assets/img/featured/silicon_india-906x250.webp" alt="silicon logo" />
+                                        <img src="/assets/img/featured/silicon_india-906x250.webp" alt="silicon logo" />
                                     </div>
                                 </div>
                             </div>
@@ -617,7 +617,7 @@ const Home = () => {
             {/* Working Process Section */}
             <section id="work-process" className="work-process mt-5">
                 <div className="work-bg-pattern d-none d-lg-inline-block">
-                    <img src="/src/assets/images/process/work_process.png" alt="" className="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.2s" />
+                    <img src="/assets/images/process/work_process.png" alt="" className="img-fluid wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.2s" />
                 </div>
                 <div className="container">
                     <div className="row text-center">
@@ -631,7 +631,7 @@ const Home = () => {
                             <div className="tw-work-process">
                                 <div className="process-wrapper d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
                                     <div className="process-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/process1.png" alt="" className="img-fluid" />
+                                        <img src="/assets/images/icon/process1.png" alt="" className="img-fluid" />
                                     </div>
                                 </div>
                                 <p>01. Analysis</p>
@@ -641,7 +641,7 @@ const Home = () => {
                             <div className="tw-work-process">
                                 <div className="process-wrapper bg-orange d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
                                     <div className="process-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/process2.png" alt="" className="img-fluid" />
+                                        <img src="/assets/images/icon/process2.png" alt="" className="img-fluid" />
                                     </div>
                                 </div>
                                 <p>02. Design</p>
@@ -651,7 +651,7 @@ const Home = () => {
                             <div className="tw-work-process">
                                 <div className="process-wrapper bg-blue d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".6s">
                                     <div className="process-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/process3.png" alt="" className="img-fluid" />
+                                        <img src="/assets/images/icon/process3.png" alt="" className="img-fluid" />
                                     </div>
                                 </div>
                                 <p>03. Development</p>
@@ -661,7 +661,7 @@ const Home = () => {
                             <div className="tw-work-process">
                                 <div className="process-wrapper bg-yellow d-table wow zoomIn" data-wow-duration="1s" data-wow-delay=".8s">
                                     <div className="process-inner d-table-cell">
-                                        <img src="/src/assets/images/icon/process4.png" alt="" className="img-fluid" />
+                                        <img src="/assets/images/icon/process4.png" alt="" className="img-fluid" />
                                     </div>
                                 </div>
                                 <p>04. Live</p>
@@ -709,7 +709,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/kamal.webp" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/kamal.webp" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -772,7 +772,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/hem.webp" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/hem.webp" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -846,7 +846,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/kamal.webp" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/kamal.webp" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -909,7 +909,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/sarte.png" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/sarte.png" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -976,7 +976,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/hem.webp" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/hem.webp" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -1039,7 +1039,7 @@ const Home = () => {
                                                     <div className="row">
                                                         <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                                                             <div className="website_image">
-                                                                <img src="/src/assets/img/brand/plant.webp" alt="SEO Portfolio" />
+                                                                <img src="/assets/img/brand/plant.webp" alt="SEO Portfolio" />
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -1565,7 +1565,7 @@ const Home = () => {
                                 <div className="tw-testimonial-wrapper">
                                     <div className="testimonial-bg testimonial-bg-orange">
                                         <div className="testimonial-icon">
-                                            <img src="/src/assets/images/icon-image/testimonial1.png" alt="" className="img-fluid" />
+                                            <img src="/assets/images/icon-image/testimonial1.png" alt="" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className="testimonial-text">
@@ -1581,7 +1581,7 @@ const Home = () => {
                                 <div className="tw-testimonial-wrapper">
                                     <div className="testimonial-bg testimonial-bg-orange">
                                         <div className="testimonial-icon">
-                                            <img src="/src/assets/images/icon-image/testimonial1.png" alt="" className="img-fluid" />
+                                            <img src="/assets/images/icon-image/testimonial1.png" alt="" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className="testimonial-text">
@@ -1664,42 +1664,42 @@ const Home = () => {
                     <div className="row mb-5 mt-5">
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/1.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/1.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/2.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/2.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/3.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/3.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/4.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/4.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/5.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/5.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/6.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/6.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/7.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/7.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                         <div className="col-md-3 mt-3">
                             <div className="screen client-image">
-                                <img src="/src/assets/img/portfolio/8.webp" className="client-img" alt="Client Logo" />
+                                <img src="/assets/img/portfolio/8.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
                     </div>
