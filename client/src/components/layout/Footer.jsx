@@ -46,11 +46,11 @@ const Footer = () => {
                                         <span className="animate-border border-black"></span>
                                     </div>
                                     <ul className="menu-col">
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; PHP Website Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Ecommerce Website Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Custom Website Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; MLM Software Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Multi Vendor Ecommerce Website</Link></li>
+                                        <li><Link to="/services/php-website-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; PHP Website Development</Link></li>
+                                        <li><Link to="/services/ecommerce-website-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Ecommerce Website Development</Link></li>
+                                        <li><Link to="/services/custom-website-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Custom Website Development</Link></li>
+                                        <li><Link to="/services/mlm-software-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; MLM Software Development</Link></li>
+                                        <li><Link to="/services/multi-vendor-ecommerce-website"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Multi Vendor Ecommerce Website</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -63,11 +63,11 @@ const Footer = () => {
                                         <span className="animate-border border-black"></span>
                                     </div>
                                     <ul className="menu-col">
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Mobile App Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Android App development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; IOS App Development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Native App development</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Hybrid App development</Link></li>
+                                        <li><Link to="/services/android-app-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Mobile App Development</Link></li>
+                                        <li><Link to="/services/android-app-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Android App development</Link></li>
+                                        <li><Link to="/services/ios-app-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; IOS App Development</Link></li>
+                                        <li><Link to="/services/native-app-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Native App development</Link></li>
+                                        <li><Link to="/services/hybrid-app-development"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Hybrid App development</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -80,14 +80,14 @@ const Footer = () => {
                                         <span className="animate-border border-black"></span>
                                     </div>
                                     <ul className="menu-col">
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Search Engine Optimization</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Business Listing SEO</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Local SEO</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Ads</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Performance Marketing</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Facebook Marketing</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Instagram Marketing</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Promotion</Link></li>
+                                        <li><Link to="/services/search-engine-optimization"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Search Engine Optimization</Link></li>
+                                        <li><Link to="/services/google-my-business"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Business Listing SEO</Link></li>
+                                        <li><Link to="/services/local-seo"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Local SEO</Link></li>
+                                        <li><Link to="/services/google-ads"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Ads</Link></li>
+                                        <li><Link to="/services/performance-marketing"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Performance Marketing</Link></li>
+                                        <li><Link to="/services/facebook-marketing"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Facebook Marketing</Link></li>
+                                        <li><Link to="/services/instagram-marketing"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Instagram Marketing</Link></li>
+                                        <li><Link to="/services/google-promotion"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp; Google Promotion</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -141,8 +141,8 @@ const Footer = () => {
                                         <li><Link to="/about"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;About us</Link></li>
                                         <li><Link to="/portfolio"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Portfolio</Link></li>
                                         <li><Link to="/blogs"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Blog</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;FAQ</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Payment Option</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;FAQ</Link></li>
+                                        <li><a href="https://pmny.in/RrW0s4JFSwzj" target="_blank" rel="noopener noreferrer"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Payment Option</a></li>
                                         <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Contact us</Link></li>
                                     </ul>
                                 </div>
@@ -156,12 +156,12 @@ const Footer = () => {
                                         <span className="animate-border border-black"></span>
                                     </div>
                                     <ul className="menu-col">
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Terms and Conditions</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Privacy Policy</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Policy</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Feedback</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Career</Link></li>
-                                        <li><Link to="#"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Sitemap</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Terms and Conditions</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Privacy Policy</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Policy</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Feedback</Link></li>
+                                        <li><Link to="/contact"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Career</Link></li>
+                                        <li><Link to="/"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Sitemap</Link></li>
                                         <li><a href="https://pmny.in/RrW0s4JFSwzj" target="_blank" rel="noopener noreferrer"><i className="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;Pay Online</a></li>
                                     </ul>
                                 </div>

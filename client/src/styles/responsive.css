@@ -760,6 +760,15 @@
          -webkit-overflow-scrolling: touch;
      }
 
+     /* Fix: Allow vertical scrolling on carousel areas */
+     .owl-carousel,
+     .owl-carousel .owl-stage-outer,
+     .owl-carousel .owl-stage,
+     .owl-carousel .owl-item {
+         touch-action: pan-y !important;
+         -ms-touch-action: pan-y !important;
+     }
+
      ul.navbar-nav>li.nav-item>a.nav-link.active:before,
      ul.navbar-nav>li.nav-item>a.nav-link.active:after,
      ul.navbar-nav>li.nav-item>a.nav-link:before,
