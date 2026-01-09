@@ -1,0 +1,171 @@
+/* ========================================
+   HOME PAGE MOBILE OPTIMIZATION
+   ======================================== */
+
+/* Hero Slider Mobile Optimization */
+@media (max-width: 767px) {
+
+    /* Reduce slider height on mobile */
+    .slider-wrapper,
+    .tw-slider-1,
+    .slider-1 .slider-wrapper {
+        min-height: 500px !important;
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    /* Stack slider content */
+    .slider-content {
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+
+    .slider-content h1 {
+        font-size: 24px !important;
+        margin-bottom: 15px;
+    }
+
+    .slider-content p {
+        font-size: 14px !important;
+        margin-bottom: 20px;
+    }
+
+    /* Slider images */
+    .slider-img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    /* Hide decorative arrows on mobile */
+    .slider-arrow {
+        display: none !important;
+    }
+}
+
+/* Features Section */
+@media (max-width: 767px) {
+    .features-box {
+        margin-bottom: 20px;
+        padding: 20px 15px;
+    }
+
+    .features-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Services Grid */
+@media (max-width: 767px) {
+    .tw-service-box {
+        margin-bottom: 20px;
+    }
+
+    .service-icon {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+
+/* Google Certificates Carousel */
+@media (max-width: 767px) {
+    .google-partner-cert img {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
+
+/* Stats/Facts Section */
+@media (max-width: 767px) {
+    .facts-content {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .facts-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Portfolio Gallery */
+@media (max-width: 767px) {
+    .client-image {
+        margin-bottom: 15px;
+        padding: 0 5px;
+    }
+
+    /* Square viewport for mobile */
+    .screen {
+        height: 180px !important;
+        overflow: hidden !important;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    /* Images start at top (visible) */
+    .screen img {
+        top: 0;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 0;
+        transition: top 8s ease;
+    }
+
+    /* On click/active, scroll image down */
+    .screen.active img {
+        top: -745px;
+        transition: top 8s ease;
+    }
+
+    /* Add visual feedback when active */
+    .screen.active {
+        box-shadow: 0 0 0 2px #fec658;
+    }
+}
+
+
+/* Contact Form */
+@media (max-width: 767px) {
+
+    .login-form input,
+    .login-form select,
+    .login-form textarea {
+        font-size: 16px !important;
+        padding: 12px;
+    }
+
+    .login-form .btn-submit {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* SEO Portfolio Tabs */
+@media (max-width: 767px) {
+    .seoport {
+        margin-bottom: 20px;
+    }
+
+    .wps-table {
+        font-size: 12px;
+        overflow-x: auto;
+        display: block;
+    }
+
+    .wps-table td {
+        padding: 8px 5px;
+    }
+}
+
+/* Tech Stack Icons */
+@media (max-width: 767px) {
+    .tech-icon {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 10px;
+    }
+}

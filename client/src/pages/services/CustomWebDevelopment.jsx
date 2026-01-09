@@ -1,4 +1,4 @@
-﻿import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { api } from '../../utils/api';
@@ -6,6 +6,7 @@ import { api } from '../../utils/api';
 // Import banner image
 import banner5 from '../../assets/images/banner/banner5.jpg';
 import testimonialIcon from '../../assets/images/icon-image/testimonial1.png';
+import '../../styles/service-mobile.css';
 
 // Use image URL from the actual website
 const customWebDevImage = 'https://www.digitalmarketingking.in/img/dm/custom-website-development-in-delhi.webp';

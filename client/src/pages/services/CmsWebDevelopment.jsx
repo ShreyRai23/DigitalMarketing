@@ -1,7 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { api } from '../../utils/api';
+import '../../styles/service-mobile.css';
 
 // Import banner image
 import banner5 from '../../assets/images/banner/banner5.jpg';

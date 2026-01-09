@@ -27,6 +27,7 @@ import '../styles/features-section.css';
 import '../styles/seo-partner-section.css';
 import '../styles/review-section.css';
 import '../styles/cta-section.css';
+import '../styles/home-mobile.css';
 
 // Import Tech Stack Images
 import phpIcon from '../assets/images/other/php.png';
@@ -1662,43 +1663,43 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row mb-5 mt-5">
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/1.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/2.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/3.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/4.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/5.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/6.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/7.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
-                        <div className="col-md-3 mt-3">
-                            <div className="screen client-image">
+                        <div className="col-6 col-md-3 mt-3">
+                            <div className="screen client-image" onClick={(e) => e.currentTarget.classList.toggle('active')}>
                                 <img src="/assets/img/portfolio/8.webp" className="client-img" alt="Client Logo" />
                             </div>
                         </div>
@@ -1712,25 +1713,28 @@ const Home = () => {
                     <div className="row justify-content-center">
                         <div className="col-md-10 text-center wow fadeInDown">
                             <div className="analysis-form">
-                                <form className="form-vertical">
-                                    <div className="row justify-content-center align-items-center">
-                                        <div className="col text-left p-0">
-                                            <h2 className="column-title">
-                                                Boost Your Brand Presence
-                                                <span className="text-white"> with India's Leading</span><br />
-                                                <span className="text-white">Digital Marketing Company</span>
-                                            </h2>
-                                            <p className="text-white mb-0">
-                                                We design solution to perform with Excellence and Technical Upgradation. Our Products and Digital marketing Services are laced with rich experience.
-                                            </p>
-                                        </div>
-                                        <div className="col-auto text-center p-0 ml-4">
-                                            <div className="form-group mb-0">
-                                                <a href="/contact" className="btn-cta">LET'S TALK</a>
-                                            </div>
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-10 col-md-12">
+                                        <h2 className="column-title" style={{ marginBottom: '20px' }}>
+                                            Boost Your Brand Presence <span className="text-white">with India's Leading Digital Marketing Company</span>
+                                        </h2>
+                                        <p className="text-white" style={{ marginBottom: '30px', fontSize: '16px' }}>
+                                            We design solution to perform with Excellence and Technical Upgradation. Our Products and Digital marketing Services are laced with rich experience of our company which makes your projects failure proof.
+                                        </p>
+                                        <div className="form-group">
+                                            <a href="/contact" className="btn btn-secondary mw-80 no-shadows" style={{
+                                                backgroundColor: '#fec658',
+                                                border: 'none',
+                                                padding: '15px 50px',
+                                                fontSize: '16px',
+                                                fontWeight: '700',
+                                                borderRadius: '50px',
+                                                textTransform: 'uppercase',
+                                                display: 'inline-block'
+                                            }}>Let's Talk</a>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>

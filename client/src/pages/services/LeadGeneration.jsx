@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import '../../styles/service-mobile.css';
 
 const LeadGeneration = () => {
     const [formData, setFormData] = useState({ name: '', mobile: '', service: '' });

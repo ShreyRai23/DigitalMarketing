@@ -1,0 +1,177 @@
+/* ========================================
+   SERVICE PAGES MOBILE OPTIMIZATION
+   ======================================== */
+
+/* Banner Area */
+@media (max-width: 767px) {
+    .banner-area {
+        min-height: 300px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        padding-top: 100px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .banner-title {
+        font-size: 24px !important;
+        margin-bottom: 15px;
+    }
+
+    .breadcrumb {
+        font-size: 12px;
+    }
+}
+
+/* Call to Action Buttons */
+@media (max-width: 767px) {
+
+    .call-category,
+    .call-category-whatapp {
+        margin-bottom: 15px;
+    }
+
+    .blog-category-call,
+    .blog-category-call-whatapp {
+        font-size: 18px !important;
+        padding: 12px 20px;
+    }
+}
+
+/* Content Section */
+@media (max-width: 767px) {
+
+    .post img,
+    .entry-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .post-body h2 {
+        font-size: 22px !important;
+    }
+
+    .post-body h5 {
+        font-size: 18px !important;
+    }
+
+    .post-body p,
+    .post-body li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* Quick Form (Sidebar Form) */
+@media (max-width: 767px) {
+    .contact-form-wrapper1 {
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+
+    .contact-form1 {
+        width: 100%;
+    }
+
+    .contact-form1 .title {
+        font-size: 20px !important;
+    }
+
+    .form-control1 {
+        font-size: 16px !important;
+        padding: 12px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .submit-button-wrapper input {
+        width: 100%;
+        min-height: 44px;
+    }
+}
+
+/* Testimonials Section */
+@media (max-width: 767px) {
+    .tw-testimonial {
+        padding: 40px 0;
+    }
+
+    .tw-testimonial .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-text p {
+        font-size: 14px !important;
+    }
+
+    .testimonial-meta h4 {
+        font-size: 16px !important;
+    }
+}
+
+/* Contact Form (Right Side) */
+@media (max-width: 767px) {
+    .login-form {
+        padding: 20px !important;
+    }
+
+    .myquiiee {
+        font-size: 20px !important;
+    }
+
+    .login-form .form-control {
+        font-size: 16px !important;
+        padding: 12px;
+    }
+
+    .submi-btn {
+        width: 100% !important;
+        margin-bottom: 10px;
+        min-height: 44px;
+    }
+}
+
+/* CTA Section */
+@media (max-width: 767px) {
+    .tw-analysis-area {
+        padding: 40px 0;
+    }
+
+    .column-title {
+        font-size: 20px !important;
+        margin-bottom: 15px;
+    }
+
+    .analysis-form p {
+        font-size: 14px !important;
+    }
+
+    .mw-80 {
+        width: 100% !important;
+        min-height: 44px;
+    }
+}
+
+/* Tables */
+@media (max-width: 767px) {
+    table {
+        font-size: 12px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table td,
+    table th {
+        padding: 8px 5px;
+    }
+}
+
+/* Lists */
+@media (max-width: 767px) {
+
+    ul li,
+    ol li {
+        margin-bottom: 10px;
+    }
+}

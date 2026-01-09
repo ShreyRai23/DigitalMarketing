@@ -105,8 +105,22 @@ const Portfolio = () => {
                                             </div>
                                             <div className="col-lg-2 col-md-12 no-padding">
                                                 <div className="form-group">
-                                                    <Link to="/contact">
-                                                        <input type="button" value="Let's Talk" style={{ cursor: 'pointer' }} />
+                                                    <Link
+                                                        to="/contact"
+                                                        className="btn btn-secondary mw-80 no-shadows"
+                                                        style={{
+                                                            backgroundColor: '#fec658',
+                                                            border: 'none',
+                                                            padding: '15px 50px',
+                                                            fontSize: '16px',
+                                                            fontWeight: '700',
+                                                            borderRadius: '50px',
+                                                            textTransform: 'uppercase',
+                                                            color: '#000',
+                                                            display: 'inline-block'
+                                                        }}
+                                                    >
+                                                        Let's Talk
                                                     </Link>
                                                 </div>
                                             </div>

@@ -16,6 +16,7 @@ import './styles/call.css'
 import './styles/hero-slider.css'
 import './styles/features-section.css'
 import './styles/seo-partner-section.css'
+import './styles/topbar-mobile.css'
 
 import App from './App.jsx'
 

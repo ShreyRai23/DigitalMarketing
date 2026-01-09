@@ -8,6 +8,7 @@ import Footer from './components/layout/Footer';
 import OffCanvasMenu from './components/layout/OffCanvasMenu';
 import SearchBar from './components/layout/SearchBar';
 import WhatsAppButton from './components/common/WhatsAppButton';
+import ScrollToTop from './components/common/ScrollToTop';
 
 
 // Pages
@@ -63,6 +64,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToTop />
         <div className="App">
           <TopBar />
           <Navbar />

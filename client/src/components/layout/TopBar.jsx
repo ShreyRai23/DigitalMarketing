@@ -1,6 +1,6 @@
 const TopBar = () => {
     return (
-        <div className="tw-top-bar">
+        <div className="tw-top-bar mobile-topbar">
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 text-left">

@@ -1,0 +1,155 @@
+/* ========================================
+   MOBILE TOPBAR RESPONSIVE STYLES
+   ======================================== */
+
+/* Mobile and Tablet TopBar - Ultra Compact Single Line */
+@media (max-width: 991px) {
+    .mobile-topbar {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        width: 100% !important;
+        z-index: 999 !important;
+        padding: 8px 0 !important;
+        margin: 0 !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        white-space: nowrap !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .mobile-topbar .container {
+        padding: 2px 10px !important;
+        margin: 0 !important;
+        width: auto !important;
+        max-width: none !important;
+        min-width: 100%;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .row {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex;
+        flex-wrap: nowrap !important;
+        align-items: center;
+        width: max-content;
+        min-width: 100%;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .col-md-8,
+    .mobile-topbar .col-md-4 {
+        padding: 0 5px !important;
+        margin: 0 !important;
+        flex: 0 0 auto;
+        width: auto !important;
+        max-width: none !important;
+        line-height: 1.2 !important;
+    }
+
+    /* Contact Info - Ultra Compact */
+    .mobile-topbar .top-contact-info {
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .top-contact-info span {
+        font-size: 10px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        white-space: nowrap;
+        display: inline-flex;
+        align-items: center;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .top-contact-info i {
+        font-size: 10px !important;
+        margin-right: 3px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .top-contact-info a {
+        font-size: 10px !important;
+        white-space: nowrap;
+        padding: 0 !important;
+        margin: 0 !important;
+        line-height: 1.2 !important;
+    }
+
+    /* Social Links - Ultra Compact */
+    .mobile-topbar .top-social-links {
+        display: inline-flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0 0 0 10px !important;
+        padding: 0 !important;
+        line-height: 1.2 !important;
+    }
+
+    .mobile-topbar .top-social-links a {
+        font-size: 12px !important;
+        padding: 2px !important;
+        margin: 0 !important;
+        display: inline-block;
+        line-height: 1 !important;
+    }
+
+    /* Hide scrollbar but keep functionality */
+    .mobile-topbar::-webkit-scrollbar {
+        height: 2px;
+    }
+
+    .mobile-topbar::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.05);
+    }
+
+    .mobile-topbar::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+    }
+}
+
+/* Extra Small Mobile - Same compact height */
+@media (max-width: 480px) {
+
+    .mobile-topbar .top-contact-info span,
+    .mobile-topbar .top-contact-info i,
+    .mobile-topbar .top-contact-info a {
+        font-size: 9px !important;
+    }
+
+    .mobile-topbar .top-social-links a {
+        font-size: 11px !important;
+        padding: 1px !important;
+    }
+}
+
+/* Position navbar below TopBar on mobile */
+@media (max-width: 991px) {
+    .main-header {
+        top: 35px !important;
+    }
+
+    /* Adjust body padding for fixed TopBar + Navbar */
+    body {
+        padding-top: 100px !important;
+    }
+}
+
+/* Desktop - Navbar at top */
+@media (min-width: 992px) {
+    .main-header {
+        top: 0 !important;
+    }
+}

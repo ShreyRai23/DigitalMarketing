@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 // Import banner image
 import banner5 from '../../assets/images/banner/banner5.jpg';
 import testimonialIcon from '../../assets/images/icon-image/testimonial1.png';
+import '../../styles/service-mobile.css';
 
 // Use image URL from the actual website
 const newsPortalDevImage = 'https://www.digitalmarketingking.in/img/dm/news-portal-development-company-in-delhi.webp';

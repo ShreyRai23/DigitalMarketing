@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { api } from '../../utils/api';
+import '../../styles/service-mobile.css';
 
 const SocialMediaPostDesign = () => {
     const [formData, setFormData] = useState({
