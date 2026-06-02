@@ -37,9 +37,7 @@
 - [🔌 API Reference](#-api-reference)
 - [🗺️ Route Mapping](#️-route-mapping)
 - [✅ Features](#-features)
-- [📊 Project Status](#-project-status)
-- [🐛 Known Issues](#-known-issues)
-- [📞 Contact](#-contact)
+- [🧰 Scripts Reference](#-scripts-reference)
 
 ---
 
@@ -353,60 +351,33 @@ All 19 original PHP pages have been migrated to React routes:
 ## ✅ Features
 
 ### 🌐 Frontend
-- ✅ React Router SPA navigation (zero full-page reloads)
-- ✅ React Helmet Async — per-page SEO meta tags & JSON-LD schema
-- ✅ Responsive design — maintained from original (Bootstrap 4)
-- ✅ Reusable layout components (TopBar, Navbar, Footer, OffCanvas)
-- ✅ Floating WhatsApp & Call action buttons
-- ✅ Progressive Web App (PWA) support via `vite-plugin-pwa`
-- ✅ Off-canvas mobile-first navigation menu
-- ⏳ Owl Carousel integration
-- ⏳ WOW.js scroll animations
-- ⏳ Contact form UI feedback
+- React Router SPA navigation (zero full-page reloads)
+- React Helmet Async — per-page SEO meta tags & JSON-LD schema
+- Fully responsive design (Bootstrap 4 + Custom CSS)
+- Reusable layout components (TopBar, Navbar, Footer, OffCanvas)
+- Floating WhatsApp & Call action buttons
+- Progressive Web App (PWA) support via `vite-plugin-pwa`
+- Off-canvas mobile-first navigation menu
+- Smooth scroll animations & carousel sliders
+- Integrated contact form with success/error feedback
 
 ### 🖥️ Backend
-- ✅ Express 5 server with CORS
-- ✅ MongoDB with Mongoose ODM
-- ✅ Contact form API with full validation
-- ✅ Rate limiting — 5 req/hour per IP
-- ✅ Honeypot spam protection
-- ✅ express-validator input sanitisation
-- ✅ Centralised error handling middleware
+- Express 5 server with CORS
+- MongoDB with Mongoose ODM
+- Contact form API with full validation
+- Rate limiting — 5 requests/hour per IP
+- Honeypot spam protection
+- express-validator input sanitisation
+- Centralised error handling middleware
 
 ### 📱 Android (Capacitor)
-- ✅ Native Android project generated
-- ✅ App ID: `com.digitalmarketingking.app`
-- ✅ Capacitor 8 bridge configured
-- ✅ Ready to build APK / AAB in Android Studio
+- Native Android app — App ID: `com.digitalmarketingking.app`
+- Capacitor 8 bridge for full native device API access
+- Distributed as APK / AAB via Android Studio
 
 ---
 
-## 📊 Project Status
 
-### ✅ Completed
-- [x] MERN project structure
-- [x] Express backend server
-- [x] MongoDB models & controllers
-- [x] Contact form API with validation & rate-limiting
-- [x] React frontend routing (all 19 pages)
-- [x] Layout components (TopBar, Navbar, Footer, OffCanvas)
-- [x] SEO meta tags setup with React Helmet
-- [x] Capacitor Android project initialised
-- [x] PWA manifest configured
-
-### 🔄 In Progress
-- [ ] CSS & image asset migration
-- [ ] Full HTML content migration (all 19 pages)
-- [ ] Contact form UI ↔ backend API integration
-
-### ⏳ Pending
-- [ ] Owl Carousel & WOW.js setup
-- [ ] Schema.org JSON-LD structured data
-- [ ] End-to-end testing (web + mobile)
-- [ ] Android APK / Play Store build
-- [ ] Production deployment
-
----
 
 ## 🧰 Scripts Reference
 
