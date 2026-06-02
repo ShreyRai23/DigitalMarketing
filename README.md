@@ -436,38 +436,11 @@ npx cap run android      # Run on connected device
 
 ---
 
-## 🐛 Known Issues
-
-| Issue | Status | Notes |
-|-------|--------|-------|
-| Pages appear unstyled | 🔄 In Progress | CSS not yet migrated to `client/src/styles/` |
-| Images not loading | 🔄 In Progress | Assets need copying to `client/src/assets/` |
-| Service pages have placeholder content | 🔄 In Progress | HTML content migration pending |
-| Contact form not connected | ⏳ Pending | API ready; UI integration needed |
-| Carousels not working | ⏳ Pending | Owl Carousel setup required |
-
----
-
-## 📞 Contact
-
-<div align="center">
-
-| | |
-|---|---|
-| 🌐 **Website** | [www.digitalmarketingking.in](https://www.digitalmarketingking.in/) |
-| 📱 **Phone** | [+91-9910075663](tel:+919910075663) |
-| 📧 **Email** | [info@digitalmarketingking.in](mailto:info@digitalmarketingking.in) |
-| 📍 **Address** | Plot No.32, 2nd Floor, Sewak Park, Dwarka Mor, New Delhi - 110059, India |
-
-</div>
-
----
-
 <div align="center">
 
 **Copyright © 2024 Digital Marketing King®. All Rights Reserved.**
 
-Built using the **MERN Stack** + **Capacitor**
+Built with ❤️ using the **MERN Stack** + **Capacitor**
 
 [![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat-square)](https://react.dev)
 [![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square)](https://nodejs.org)
